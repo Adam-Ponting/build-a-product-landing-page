@@ -116,7 +116,7 @@ body {
   z-index: 0;
 }
 .price {
-  border: 2px solid black;
+  border: 1px solid rgb(17, 17, 17);
   margin: 1em;
 }
 .price > p {
@@ -138,6 +138,7 @@ button[type='button'] {
   margin: 0.5em auto;
 }
 footer {
+  margin-top: 1em;
   background-color: rgb(236, 229, 229);
   text-align: center;
   padding: 1.3em 1em;
@@ -149,7 +150,6 @@ footer ul {
 }
 footer li {
   display: inline;
-  font-weight: 600;
   font-size: 1.1em;
 }
 footer p {
@@ -157,7 +157,19 @@ footer p {
 }
 
 @media (min-width: 600px) {
-  body {
-    border: 5px solid red;
+  .main {
+    margin-top: 200px;
+  }
+  form {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .price {
+    margin: 1em auto;
+    width: 20em;
+  }
+  footer {
+    text-align: right;
   }
 }
