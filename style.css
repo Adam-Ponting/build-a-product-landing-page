@@ -92,6 +92,9 @@ body {
   padding: 0.5em;
   margin-bottom: 1em;
 }
+.feature img {
+  display: none;
+}
 .feature h3 {
   font-size: 1.5em;
   margin: 0;
@@ -174,6 +177,10 @@ footer p {
   }
 }
 @media (min-width: 800px) {
+  body {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
   .header {
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -186,6 +193,10 @@ footer p {
   .logo h1 {
     font-size: 2em;
   }
+  .feature img {
+    display: block;
+  }
+
   .nav-bar {
     align-content: flex-end;
   }
